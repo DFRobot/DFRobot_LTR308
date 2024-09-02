@@ -1,0 +1,70 @@
+#######################################
+# Syntax Coloring DFRobot_LTR308
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_LTR308	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setPowerUp	KEYWORD2
+setPowerDown	KEYWORD2
+getPower	KEYWORD2
+
+setGain	KEYWORD2
+getGain	KEYWORD2
+
+setMeasurementRate	KEYWORD2
+getMeasurementRate	KEYWORD2
+
+getPartID	KEYWORD2
+getStatus	KEYWORD2
+
+getData	KEYWORD2
+setInterruptControl	KEYWORD2
+getInterruptControl	KEYWORD2
+
+setIntrPersist	KEYWORD2
+getIntrPersist	KEYWORD2
+
+setThreshold	KEYWORD2
+getThreshold	KEYWORD2
+
+getLux		KEYWORD2
+readReg		KEYWORD2
+writeReg	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+sMeasRate_t		LITERAL1
+sMainStatus_t	LITERAL1
+sThres_t		LITERAL1
+
+
+LTR308_ADDR			 LITERAL1
+LTR308_PART_V_ID	 LITERAL1
+LTR308_CONTR         LITERAL1
+LTR308_MEAS_RATE     LITERAL1
+LTR308_ALS_GAIN      LITERAL1
+LTR308_REG_PART_ID   LITERAL1
+LTR308_STATUS        LITERAL1
+LTR308_DATA_0 	     LITERAL1
+LTR308_DATA_1        LITERAL1
+LTR308_DATA_2        LITERAL1
+LTR308_INTERRUPT     LITERAL1
+LTR308_INTR_PERS     LITERAL1
+LTR308_THRES_UP_0    LITERAL1
+LTR308_THRES_UP_1	 LITERAL1
+LTR308_THRES_UP_2	 LITERAL1
+LTR308_THRES_LOW_0   LITERAL1
+LTR308_THRES_LOW_1   LITERAL1
+LTR308_THRES_LOW_2   LITERAL1
